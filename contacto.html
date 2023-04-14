@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="enlace">
+            <!-- <img src="logo.png" alt="" class="logo"> -->
+            My Blog
+        </a>
+        <ul>
+            <li><a class="" href="index.html">Inicio</a></li>
+            <li><a href="perfil.html">Ver mi perfil</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="container">
+            <div class="form">
+                <p>( <span class="red">*</span> ) Todos los campos son obligatorios</p>
+                <form action="">
+                    <div class="input">
+                        <label for="name">Nombre <span>*</span>:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="input">
+                        <label for="surname-father">Apellido Paterno <span>*</span>:</label>
+                        <input type="text" name="surname-father" id="surname-father">
+                    </div>
+                    <div class="input">
+                        <label for="surname-mother">Apellido Materno :</label>
+                        <input type="text" name="surname-father" id="surname-mother">
+                    </div>
+                    <div class="input">
+                        <label for="rfc">RFC :</label>
+                        <input type="text" name="rfc" id="rfc">
+                    </div>
+                    <div class="input">
+                        <label for="cp">Codigo Postal <span>*</span>:</label>
+                        <input type="text" name="cp" id="cp">
+                        <a href="#">¿Como conseguirlo?</a>
+                    </div>
+                    <div class="input">
+                        <label for="provincia">Provincia <span>*</span>:</label>
+                        <select name="provincia" id="provincia">
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Ciudad Autonoma de Bs As">Ciudad Autonoma de Bs As</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Rios">Entre Rios</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy" selected>Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquén">Neuquén</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego,
+                                Antártida e Islas del Atlántico Sur</option>
+                            <option value="Tucumán">Tucumán</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="municipalidad">Municipalidad <span>*</span>:</label>
+                        <select name="municipalidad" id="municipalidad">
+                            <option value="Abrapampa">Abrapampa</option>
+                            <option value="Caimancito">Caimancito</option>
+                            <option value="Calilegua">Calilegua</option>
+                            <option value="El Aguilar">El Aguilar</option>
+                            <option value="El Carmen">El Carmen</option>
+                            <option value="El Talar">El Talar</option>
+                            <option value="Fraile Pintado">Fraile Pintado</option>
+                            <option value="Humahuaca">Humahuaca</option>
+                            <option value="	La Esperanza"> La Esperanza</option>
+                            <option value="La Mendieta">La Mendieta</option>
+                            <option value="La Quiaca">La Quiaca</option>
+                            <option value="Libertador Gral San Martín">Libertador Gral San Martín</option>
+                            <option value="Monterrico">Monterrico</option>
+                            <option value="Palma Sola">Palma Sola</option>
+                            <option value="Palpalá" selected>Palpalá</option>
+                            <option value="Perico Ciudad">Perico Ciudad</option>
+                            <option value="San Pedro de Jujuy">San Pedro de Jujuy</option>
+                            <option value="San Salvador de Jujuy">San Salvador de Jujuy</option>
+                            <option value="Santa Clara">Santa Clara</option>
+                            <option value="Tilcara">Tilcara</option>
+                            <option value="Yuto">Yuto</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="barrio">Barrio <span>*</span>:</label>
+                        <select name="barrio" id="barrio">
+                            <option value="2 de abril">2 de abril</option>
+                            <option value="25 de Mayo">25 de Mayo</option>
+                            <option value="9 de Julio">9 de Julio</option>
+                            <option value="11 de Octubre">11 de Octubre</option>
+                            <option value="23 de Agosto">23 de Agosto</option>
+                            <option value="18 de noviembre">18 de noviembre</option>
+                            <option value="Alto Palpalá">Alto Palpalá</option>
+                            <option value="Antártida Argentina">Antártida Argentina</option>
+                            <option value="Belgrano">Belgrano</option>
+                            <option value="Canal de Beagle">Canal de Beagle</option>
+                            <option value="Carahunco">Carahunco</option>
+                            <option value="Carolina">Carolina</option>
+                            <option value="Ciudadela">Ciudadela</option>
+                            <option value="Constitución">Constitución</option>
+                            <option value="Ejército Argentino">Ejército Argentino</option>
+                            <option value="Florida">Florida</option>
+                            <option value="General Savio">General Savio</option>
+                            <option value="Güemes">Güemes</option>
+                            <option value="La Merced">La Merced</option>
+                            <option value="Las Tipas">Las Tipas</option>
+                            <option value="Loma Golf">Loma Golf</option>
+                            <option value="Martijena">Martijena</option>
+                            <option value="Paso de Jama">Paso de Jama</option>
+                            <option value="Raúl Galán">Raúl Galán</option>
+                            <option value="Río Blanco">Río Blanco</option>
+                            <option value="San Ignacio de Loyola">San Ignacio de Loyola</option>
+                            <option value="San José">San José</option>
+                            <option value="San Martín">San Martín</option>
+                            <option value="San Roque">San Roque</option>
+                            <option value="Santa Bárbara A">Santa Bárbara A</option>
+                            <option value="Santa Bárbara B">Santa Bárbara B</option>
+                            <option value="Sarmiento">Sarmiento</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="sexo">Sexo <span>*</span>:</label>
+                        <p class="genero">Hombre</p>
+                        <input type="radio" name="genero" id="hombre">
+                        <p class="genero">Mujer</p>
+                        <input type="radio" name="genero" id="mujer">
+                        <p class="genero">Prefiero no decirlo</p>
+                        <input type="radio" name="genero" id="prefiero no decirlo">
+                    </div>
+                    <div class="input">
+                        <label for="fdn">Fecha de Nacimiento <span>*</span>:</label>
+                        <input type="date" name="fdn" id="fdn">
+                    </div>
+                    <div class="input">
+                        <label for="email">Correo electronico <span>*</span>:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Derechos Reservados © 2023 - Coraite Facundo Leonel</p>
+    </footer>
+</body>
+
+</html>
